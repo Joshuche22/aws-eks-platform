@@ -1,0 +1,2 @@
+*.tf linguist-language=Terraform
+*.hcl linguist-language=Terraform
