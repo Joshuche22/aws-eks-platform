@@ -5,6 +5,7 @@ A production-grade AWS infrastructure platform built with Terraform, designed to
 ## Architecture Overview
 
 This platform provisions a complete AWS infrastructure stack covering networking, compute, storage, security, DNS, and observability — all built from reusable Terraform modules and deployed independently across dev, staging, and prod environments.
+```
 aws-eks-platform/
 ├── modules/
 │   ├── vpc/          # Multi-AZ networking, NAT gateways, VPC flow logs
@@ -18,6 +19,7 @@ aws-eks-platform/
 ├── dev/          # Single NAT, smaller nodes, no Multi-AZ RDS
 ├── staging/      # Multi-AZ, medium nodes, tighter alarm thresholds
 └── prod/         # Full HA, larger nodes, 30-day metric retention
+```
 
 ## Tech Stack
 
