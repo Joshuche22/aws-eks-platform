@@ -1,2 +1,2 @@
-*.tf linguist-language=Terraform
-*.hcl linguist-language=Terraform
+*.tf linguist-detectable=false
+*.hcl linguist-detectable=false
